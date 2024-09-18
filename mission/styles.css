@@ -1,0 +1,48 @@
+body {
+    width: 600px;
+    margin: 3.5em auto;
+    padding: 3.5em 10%;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+header h1 {
+    letter-spacing: 0.05em;
+    margin: none;
+}
+
+header h2 {
+    letter-spacing: 0.2em;
+    font-size: medium;
+    color: #006EB6;
+    margin-bottom: -0.5em;
+}
+
+header hr {
+    border-width: 0.5px;
+}
+
+main #list-head {
+    font-style: italic;
+}
+
+main ol li {
+    margin-bottom: 1em;
+}
+
+footer {
+    padding-top: 2em;
+}
+
+footer img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
