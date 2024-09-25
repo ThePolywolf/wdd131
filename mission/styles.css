@@ -25,6 +25,10 @@ header h2 {
     margin-bottom: -0.5em;
 }
 
+.dark h2 {
+    color: #46b1f6;
+}
+
 header hr {
     border-width: 0.5px;
 }
@@ -45,4 +49,10 @@ footer img {
     width: 150px;
     display: block;
     margin: 0 auto;
+}
+
+.dark {
+    background-color: #333;
+    color: white;
+    border: 1px white solid;
 }
