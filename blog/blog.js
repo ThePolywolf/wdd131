@@ -52,7 +52,7 @@ function article_template(article) {
 		<div class="book-description">
 			<h2><a class="book-link" href="#">${article.title}</a></h2>
 			<img src="${article.imgSrc}" alt="${article.imgAlt}">
-			<p>${article.description}<a class="read-more" href="#">Read More...</a></p>
+			<p>${article.description} <a class="read-more" href="#">Read More...</a></p>
 		</div>
 	</article>
 	`
