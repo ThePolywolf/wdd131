@@ -69,25 +69,31 @@ main {
     padding: 25px;
 }
 
-#results section {
+#results article {
     margin-bottom: 35px;
 }
 
 .book {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 50px;
+    gap: 25px;
+    padding-bottom: 30px;
 }
 
-    .book-info {
-        text-align: right;
-        font-size: 1.1em;
-        margin-top: 35px;
-    }
+.book-info {
+    text-align: right;
+    font-size: 1.1em;
+    margin-top: 0;
+}
 
-        .release-date {
-            font-size: 1.25em;
-        }
+.release-date {
+    font-size: 1.25em;
+}
+
+.book-description {
+    padding-left: 25px;
+    border-left: 1px solid var(--primary-color);
+}
 
     .book-description img {
         margin-left: 35px;
@@ -95,6 +101,10 @@ main {
 
     .book-description p {
         margin-top: 25px;
+    }
+
+    .book-description h2 {
+        margin-top: 0;
     }
 
 .skiptocontent a {
@@ -105,6 +115,6 @@ main {
     color: var(--background-color);
 }
 
-.skiptocontent a:focus {
-    top: 0px;
-}
+    .skiptocontent a:focus {
+        top: 0px;
+    }
