@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <meta name="author" content="Dallin Wolfer">
+    <meta name="description" content="A dynamic recipe site">
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="recipes.css" type="text/css">
+    <script src="main.js" defer></script>
+
+    <meta property="og:title" content="RecipeBook">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="A dynamic recipe site">
+    <meta property="og:image" content="images/apple-crisp.png">
+    <meta property="og:url" content="https://thepolywolf.github.io/wdd131/recipes/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <header>
+        <div id="title-bar">
+            <img src="images/recipe-book.png">
+            <h1>RecipeBook</h1>
+        </div>
+        <form id="search-bar">
+            <input id="search-box" type="text" placeholder="Find a recipe">
+            <button id="search"><img src="images/search.svg" alt="search button"></button>
+        </form>
+    </header>
+
+    <hr id="content-sep-beam"/>
+
+    <main>
+        <div id="recipes-section">
+            <section class="recipe">
+                <div class="img-section">
+                    <img src="images/apple-crisp.jpg" alt="apple-crisp">
+                </div>
+                <div class="content-section">
+                    <span class="tags"><span class="recipe-tag">dessert</span></span>
+                    <h2><a href="#">Apple Crisp</a></h2>
+                    <span
+                        class="rating"
+                        role="img"
+                        aria-label="Rating: 4 out of 5 stars"
+                    >
+                        <span aria-hidden="true" class="icon-star">⭐</span>
+                        <span aria-hidden="true" class="icon-star">⭐</span>
+                        <span aria-hidden="true" class="icon-star">⭐</span>
+                        <span aria-hidden="true" class="icon-star-empty">⭐</span>
+                        <span aria-hidden="true" class="icon-star-empty">☆</span>
+                    </span>
+                    <p class="description">
+                        This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social">
+            <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+            <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+            <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+            <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+        </div>
+        <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
+    </footer>
+</body>
+</html>
