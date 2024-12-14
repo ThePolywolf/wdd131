@@ -6,9 +6,9 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #080C52;
-  --secondary-color: #FF367E;
-  --accent1-color: #FAA916;
-  --accent2-color: white;
+  --secondary-color: white;
+  --accent1-color: #337033;
+  --accent2-color: #313235;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Manrope", Helvetica, sans-serif;
@@ -102,6 +102,7 @@ p {
 }
 .accent2 {
   background-color: var(--accent2-color);
+  color: white;
 }
 
 p.colored {
